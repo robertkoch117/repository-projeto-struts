@@ -1,18 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
     
-    <>
+    <%@ taglib uri="/struts-tags" prefix="s" %>
+    
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Index</title>
+<title>Exercicio 1</title>
 </head>
 <body>
-
-
-<a href="contato">link contato</a><br>
-<a href="contatos.jsp">sem action link contato</a>
 
 </body>
 </html>
