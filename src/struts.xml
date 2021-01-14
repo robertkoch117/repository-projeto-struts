@@ -2,7 +2,9 @@
           "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
           "http://struts.apache.org/dtds/struts-2.0.dtd">
 <struts>
-
+	<constant name="br.com.projeto.resource" value="global"/>
+	<constant name="struts.devMode" value="true"/>
+	
 	<package name="br.com.projeto.action" extends="struts-default">
 
 		<action name="teste" class="br.com.projeto.action.IndexAction">
@@ -19,6 +21,10 @@
 
 		<action name="a" class="br.com.projeto.action.ATagAction">
 			<result name="success">b.jsp</result>
+		</action>
+		
+		<action name="register" class="br.com.projeto.action.RegistrationAction">
+			<result name="success">welcome.jsp</result>
 		</action>
 
 	</package>
