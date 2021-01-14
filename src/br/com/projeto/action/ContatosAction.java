@@ -1,8 +1,8 @@
 package br.com.projeto.action;
 
-import com.opensymphony.xwork2.Action;
+import com.opensymphony.xwork2.ActionSupport;
 
-public class ContatosAction implements Action{
+public class ContatosAction extends ActionSupport{
 
 	@Override
 	public String execute() throws Exception {
