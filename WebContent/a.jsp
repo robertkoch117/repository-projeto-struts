@@ -10,19 +10,24 @@
 <title>Exercicio 3 Trabalhamos com links</title>
 </head>
 <body>
-	<ul>
+	<h1>PÁGINA A</h1>
+	<ol>
 		<li>
-			<s:url var="minhaurl" value="http://localhost:8080/projeto_struts/link1"/>
-			<s:a href="%{minhaurl}">Este é o link 1</s:a>
+			<s:url var="minhaurl" value="a"/>
+			<s:a href="%{minhaurl}">Retorno para a pagina b</s:a>
 		</li>
 		<li>
-			<s:url var="minhaurl" value="http://localhost:8080/projeto_struts/link2"/>
-			<s:a href="%{minhaurl}">Este é o link 2</s:a>
+			<s:url var="LINK1" value="http://localhost:8080/projeto_struts/link1"/>
+			<s:a href="%{LINK1}">Este é o link 1</s:a>
 		</li>
 		<li>
-			<s:url var="minhaurl" value="http://localhost:8080/projeto_struts/link3"/>
-			<s:a href="%{minhaurl}">Este é o link 3</s:a>
+			<s:url var="LINK2" value="http://localhost:8080/projeto_struts/link2"/>
+			<s:a href="%{LINK2}">Este é o link 2</s:a>
 		</li>
-	</ul>
+		<li>
+			<s:url var="LINK3" value="http://localhost:8080/projeto_struts/link3"/>
+			<s:a href="%{LINK3}">Este é o link 3</s:a>
+		</li>
+	</ol>
 </body>
 </html>
