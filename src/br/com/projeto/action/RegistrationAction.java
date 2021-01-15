@@ -4,7 +4,6 @@ import com.opensymphony.xwork2.ActionSupport;
 
 public class RegistrationAction extends ActionSupport{
 
-	
 	private String username;
 	
 	
