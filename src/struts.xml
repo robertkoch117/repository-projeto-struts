@@ -24,6 +24,7 @@
 		
 		<action name="register" class="br.com.projeto.action.RegistrationAction">
 			<result name="success">welcome.jsp</result>
+			<result name="input">registration.jsp</result>
 		</action>
 
 	</package>

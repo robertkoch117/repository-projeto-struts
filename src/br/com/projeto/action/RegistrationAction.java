@@ -47,7 +47,7 @@ public class RegistrationAction extends ActionSupport{
 			addFieldError("confirmPassword",getText("cpassword.required"));
 		}
 		
-		if("".equals(getPassword())) {
+		if(getPassword().equals(getConfirmPassword())) {
 			addFieldError("confirmPassword",getText("cpassword.notmatch"));
 		}
 	}

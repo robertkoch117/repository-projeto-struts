@@ -20,7 +20,7 @@
 		<s:property value="%{username}"/>
 		<br/>
 		<s:property value="%{Username}"/>
-		
+		<br/>
 		<s:property value="password"/>
 		<s:property value="%{confirmPassword}"/>
 		
