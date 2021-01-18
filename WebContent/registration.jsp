@@ -18,7 +18,9 @@
 		<div align="center">
 			<s:form action="register">
 	
-				<s:textfield key="username" />
+				<s:textfield key="username"/>
+				<s:password key="password"/>
+				<s:password key="confirmPassword"/>
 				<s:submit key="submit" name="submit" />
 	
 			</s:form>

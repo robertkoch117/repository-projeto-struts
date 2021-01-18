@@ -16,6 +16,14 @@
 		<s:property value="username"/>
 		<br/>
 		<s:property value="Username"/>
+		
+		<s:property value="%{username}"/>
+		<br/>
+		<s:property value="%{Username}"/>
+		
+		<s:property value="password"/>
+		<s:property value="%{confirmPassword}"/>
+		
 	</div>
 </body>
 </html>
