@@ -8,7 +8,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Template</title>
-<link rel="stylesheet" href="../styles/styles.css"/>
+<link rel="stylesheet" href="styles/styles.css"/>
 </head>
 <body>
 	<s:text name="username"/>

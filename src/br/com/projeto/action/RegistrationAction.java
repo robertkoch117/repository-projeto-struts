@@ -16,7 +16,7 @@ public class RegistrationAction extends ActionSupport{
 		this.username = username;
 	}
 
-	public void validation() {
+	public void validate() {
 		if("".equals(getUsername())) {
 			addFieldError("Username", getText("username.required"));
 		}

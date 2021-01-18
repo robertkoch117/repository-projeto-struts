@@ -8,6 +8,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Exercicio 3 Trabalhamos com links</title>
+<link rel="stylesheet" href="styles/styles.css"/>
 </head>
 <body>
 

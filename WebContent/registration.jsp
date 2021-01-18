@@ -8,19 +8,21 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Registration</title>
+<link rel="stylesheet" href="styles/styles.css"/>
 </head>
 <body>
-
-	<h1>Registration</h1>
-	<hr>
-	<br />
 	<div align="center">
-		<s:form action="register">
-
-			<s:textfield key="username" />
-			<s:submit key="submit" name="submit" />
-
-		</s:form>
+		<h1>Registration</h1>
+		<hr>
+		<br />
+		<div align="center">
+			<s:form action="register">
+	
+				<s:textfield key="username" />
+				<s:submit key="submit" name="submit" />
+	
+			</s:form>
+		</div>
 	</div>
 
 </body>
