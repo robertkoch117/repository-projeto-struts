@@ -27,6 +27,10 @@
 			<result name="input">registration.jsp</result>
 		</action>
 
+		<action name="login" class="br.com.projeto.action.LoginAction">
+			<result name="success">registration.jsp</result>
+		</action>
+
 	</package>
 
 </struts>
