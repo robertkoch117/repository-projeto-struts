@@ -11,9 +11,20 @@
 <link rel="stylesheet" href="styles/styles.css"/>
 </head>
 <body>
-	<h1>Titulo</h1>
+	<h1>Trabalhando com a tag</h1>
 	<br/>
 	<hr>
 	<br/>
+	<s:a href="set">set</s:a><br/>
+	<s:set var="msg" value="%{mensagem}"/>
+	<s:property value="msg"/>
+	
+	<br/>
+	
+	<s:set var="varUrl" value="%{http://localhost:8080/projeto_struts/set.jsp}"/>
+	<s:property value="varUrl"/>
+	
+	
+	
 </body>
 </html>
