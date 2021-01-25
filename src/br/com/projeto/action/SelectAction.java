@@ -60,7 +60,7 @@ public class SelectAction extends ActionSupport{
 	
 	
 	public String display() {
-		return youMonth;
+		return NONE;
 		
 	}
 

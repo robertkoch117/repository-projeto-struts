@@ -36,11 +36,11 @@
 		</action>
 		
 		<action name="selectAction" class="br.com.projeto.action.SelectAction" method="display">
-			<result name="success">select.jsp</result>
+			<result name="none">select.jsp</result>
 		</action>
 		
-		<action name="selectResult" class="br.com.projeto.action.SelectAction" method="display">
-			<result name="success">selectResult.jsp</result>
+		<action name="selectResult" class="br.com.projeto.action.SelectAction">
+			<result name="success">resultSelect.jsp</result>
 		</action>
 
 	</package>

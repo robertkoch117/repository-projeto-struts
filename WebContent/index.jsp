@@ -19,6 +19,9 @@
 		<li>
 			<s:url var="LINK1" value="login"/><s:a href="%{LINK1}">Registration</s:a>
 		</li>
+		<li>
+			<s:url var="LINK2" value="selectAction"/><s:a href="%{LINK2}">Select</s:a>
+		</li>
 	</ol>
 	
 	
