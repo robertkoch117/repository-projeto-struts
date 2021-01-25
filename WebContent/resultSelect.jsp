@@ -11,9 +11,13 @@
 <link rel="stylesheet" href="styles/styles.css"/>
 </head>
 <body>
-	<h1>Titulo</h1>
+	<h1>Resultado do Select</h1>
 	<br/>
 	<hr>
 	<br/>
+	
+	<h2><s:property value="youSearch"/></h2>
+	<br/>
+	<h2><s:property value="youMonth"/></h2>
 </body>
 </html>
