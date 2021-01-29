@@ -15,7 +15,7 @@
 	<br/>
 	<hr>
 	<br/>
-	<s:form action="selectAction">
+	<s:form action="selectResult">
 		<h2><s:select list="Engine" label="Digite sua busca" HeaderKey="-1" HeaderValue="Select Search" name="youSearch" value="Engine"/></h2>
 		<h2><s:select list="#{'1':'Jan', '2':'Feb', '3':'Mar'}" label="Selecione o mês" HeaderKey="-1" HeaderValue="Select Month" name="youMonth" value="2"/></h2>
 		
