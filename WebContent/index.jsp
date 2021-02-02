@@ -28,6 +28,9 @@
 		<li>
 			<s:url var="LINK4" value="textArea"/><s:a href="%{LINK4}">Text Area</s:a>
 		</li>
+		<li>
+			<s:url var="LINK5" value="checkbox"/><s:a href="%{LINK5}">Check Box</s:a>
+		</li>
 	</ol>
 	
 	
