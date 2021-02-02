@@ -25,6 +25,9 @@
 		<li>
 			<s:url var="LINK3" value="set"/><s:a href="%{LINK3}">Set</s:a>
 		</li>
+		<li>
+			<s:url var="LINK4" value="textArea"/><s:a href="%{LINK4}">Text Area</s:a>
+		</li>
 	</ol>
 	
 	
