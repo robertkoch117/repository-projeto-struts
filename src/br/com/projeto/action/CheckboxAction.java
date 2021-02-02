@@ -18,6 +18,7 @@ public class CheckboxAction extends ActionSupport{
 
 
 	public String execute() {
+		System.out.println("Executou CheckboxAction");
 		return "success";
 	}
 	

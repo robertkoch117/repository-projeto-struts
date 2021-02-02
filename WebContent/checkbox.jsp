@@ -11,13 +11,13 @@
 <link rel="stylesheet" href="styles/styles.css" />
 </head>
 <body>
-	<h1>Titulo</h1>
+	<h1>Check Box</h1>
 	<br />
 	<hr>
 	<br />
 	
 	<s:form action="inputCheckbox" namespace="">
-		<s:checkbox name="checkb" fieldValue="true" label="Checkbox"/>
+		<s:checkbox name="checkb" fieldValue="false" label="Checkbox"/>
 		<s:submit key="submit" name="submit"/>
 	</s:form>
 	

@@ -66,7 +66,7 @@ public class SelectAction extends ActionSupport{
 
 	
 	public String execute() {
-		
+		System.out.println("Executou SelectAction");
 		return "success";
 		
 	}

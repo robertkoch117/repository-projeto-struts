@@ -51,13 +51,12 @@
 			<result name="success">result.jsp</result>
 		</action>
 		
-		<action name="checkbox" class="br.com.projeto.action.CheckboxLinkAction" method="display">
+		<action name="checkbox" class="br.com.projeto.action.CheckboxAction" method="display">
 			<result name="none">checkbox.jsp</result>
 		</action>
 		
 		<action name="inputCheckbox" class="br.com.projeto.action.CheckboxAction">
 			<result name="success">resultCheckbox.jsp</result>
-			<result name="none">checkbox.jsp</result>
 		</action>
 
 	</package>

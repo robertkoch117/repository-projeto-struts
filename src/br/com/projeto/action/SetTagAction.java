@@ -17,7 +17,7 @@ public class SetTagAction extends ActionSupport{
 
 
 	public String execute() {
-		System.out.println("");
+		System.out.println("Executou SetTagAction");
 		return "success";
 	}
 }
